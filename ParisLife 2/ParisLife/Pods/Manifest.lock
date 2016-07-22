@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Backendless-ios-SDK (3.0.23)
+  - BFPaperTableViewCell (2.3.3.1):
+    - UIColor+BFPaperColors
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.12.0):
+    - FBSDKCoreKit
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - SWRevealViewController (2.3.0)
+  - TBXML (1.5)
+  - UIColor+BFPaperColors (1.7.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Backendless-ios-SDK
+  - BFPaperTableViewCell (~> 2.3.3)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - MWFeedParser/NSString+HTML
+  - SWRevealViewController
+  - TBXML
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Backendless-ios-SDK: 9bfe4474924a9aaa3e4e722cdc54c7ac07399af1
+  BFPaperTableViewCell: e6f37cf187608b0ed1fce0d96214595472ee4826
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+  FBSDKShareKit: df1491f064cffc8ebcc3fc8b71be94cc190c728e
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TBXML: 9f9dadb239f2f2af1dadb87fe43a0ce6e479379a
+  UIColor+BFPaperColors: 03101fe6c10ed00c6daae7c26553f1de41500853
+
+COCOAPODS: 0.39.0

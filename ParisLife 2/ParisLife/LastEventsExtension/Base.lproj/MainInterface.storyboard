@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="EFB-JT-3X5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="68z-OY-0Wp">
+            <objects>
+                <viewController id="EFB-JT-3X5" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n6g-gE-cfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="jin-wO-Qup"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="IxW-oC-PAX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBS-4f-ZYI">
+                                <rect key="frame" x="26" y="8" width="253" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24226194619999999" green="0.057382807139999999" blue="0.23149159550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jin-wO-Qup" firstAttribute="top" secondItem="fBS-4f-ZYI" secondAttribute="bottom" constant="11" id="0OR-jj-QWZ"/>
+                            <constraint firstItem="fBS-4f-ZYI" firstAttribute="leading" secondItem="IxW-oC-PAX" secondAttribute="leadingMargin" constant="30" id="2bn-dd-yld"/>
+                            <constraint firstItem="fBS-4f-ZYI" firstAttribute="top" secondItem="n6g-gE-cfC" secondAttribute="bottom" constant="8" symbolic="YES" id="hV9-1v-6EQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fBS-4f-ZYI" secondAttribute="trailing" constant="13" id="qeb-G2-w7C"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="40"/>
+                    <connections>
+                        <outlet property="values" destination="fBS-4f-ZYI" id="PyG-Ua-XrN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhG-Eb-6BT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="87"/>
+        </scene>
+    </scenes>
+</document>
